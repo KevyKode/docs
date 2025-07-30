@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "DomainVault Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#3734A9",
+    "light": "#8F9AFF",
+    "dark": "#1A1A3C"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -22,14 +22,14 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Marketplace Customization",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Using DomainVault",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -38,7 +38,7 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "AI Tools",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
@@ -57,7 +57,7 @@
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Examples",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
@@ -71,45 +71,45 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Platform Docs",
+          "href": "https://docs.domainvault.cc",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "href": "https://discord.gg/domainvault",
           "icon": "slack"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://domainvault.cc/blog",
           "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "logo/domainvault-light.svg",
+    "dark": "logo/domainvault-dark.svg"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact Support",
+        "href": "mailto:support@domainvault.cc"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://domainvault.cc/dashboard"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/domainvault",
+      "github": "https://github.com/domainvault",
+      "linkedin": "https://linkedin.com/company/domainvault"
     }
   }
 }
